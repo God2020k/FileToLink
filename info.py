@@ -31,6 +31,6 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Kannan:kannan@cluster0
 DATABASE_NAME = environ.get('DATABASE_NAME', "linkbot")
 
 # Shortlink Info
-SHORTLINK = bool(environ.get('SHORTLINK', true)) # Set True Or False
+SHORTLINK = bool(environ.get('SHORTLINK', True)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'krownlinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '78ee1a8ae63094a94a0ab8b5d529b4ef5def22f5')
